@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    color: whitesmoke;
+    background: linear-gradient(to right, #032C40, #4396BF)
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 1.1em;
+}
+
+.header-img{
+    height: 80px;    
+}
+.header-menu{
+    display: flex;
+    gap: 30px;
+}
+.header-link{
+    color: whitesmoke;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+main{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.cont-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.cont-principal-txt{
+    font-family:'Inclusive Sans', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.button-sec{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-family:'Inclusive Sans', sans-serif ;
+    font-size: 20px;
+    border:none;
+}
+
+.title{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 60px;
+}
+
+.coco{
+    height: 400px;
+}
+
+.sub-principal{
+    font-family:'Inclusive Sans', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+ 
+.sub-principal-titulo{
+    border-top: 0.4px solid white ;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer{
+    column-count: 3;
+    column-gap: 7px;
+} 
+ 
+footer{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: pink;
+}
+
+button > a{
+    color: #032C40;
+}
